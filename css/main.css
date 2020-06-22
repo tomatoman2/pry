@@ -2,9 +2,19 @@
   margin: 0;
   padding: 0;
 } */
-.slick-slide img {
-    display: block;
-    height: 100px;
-    width: 100px;
-    
+.slider {
+  display: flex;
+  width: 100%;
 }
+.slider img {
+  /* width: 100%; */
+  /* display: flex; */
+
+}
+/* .slick-slide img {
+  display: block;
+  height: 100px;
+  width: 100%;
+}
+/* ul {
+  display: flex; 
