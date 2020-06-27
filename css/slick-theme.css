@@ -21,13 +21,13 @@
 {
     font-size: 0;
     line-height: 0;
-
+    z-index: 100;  /*矢印を画像より上へ表示*/
     position: absolute;
     top: 50%;
 
     display: block;
 
-    width: 20px;
+    width: 100px;
     height: 20px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
