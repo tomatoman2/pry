@@ -13,15 +13,9 @@
 *{
   background-color: black;
 }
-.slider{
-  
-  /* width: 100%; */
-  /* margin: 0 auto 10px; */
-}
 .slider img:hover {
   opacity: 0.7;
 }
-
 .slide-img{
   width: 100%;
   padding: 1px;
@@ -30,14 +24,26 @@
 .slider2 {
   margin: auto;
 }
-/* // .slider { padding: 0;}
-// .slider img { width: 100%;}
-// .slider div { margin: 0 5px;}
-// .slider .slick-next { right: 17px;　z-index: 100;}
-// .slider .slick-prev { left: 23px; z-index: 100;}
 
-// .slide-dots {
-//   text-align: center;
-//   color: white;
-//   display: inline-block;
-// } */
+/*選択した画像を上部に表示するクラス*/
+.thumbnail { 
+  width: 300px;
+  margin: auto;
+}
+.thumbnail-thumb {
+  height: 50px;
+  /* width: 100%; */
+  margin: auto;
+}
+/* .thumbnail img {
+  height: 50px;
+} */
+
+/* .thumbnail { max-width: 500px; margin: 0 auto 5px; padding: 0;} */
+/* .thumbnail img,.thumbnail-nav img{ width: 100%;} */
+/* .thumbnail-thumb { max-width: 500px; margin: 0 auto;} */
+/* .thumbnail-thumb li { margin: 5px;} */
+.thumbnial-thumb .slick-next { right: 200px; z-index: 100;}
+.thumbnail-thumb .slick-prev { left: 200px; z-index: 100;}
+.thumbnail-thumb .slick-current { opacity: 0.5;}
+.thumbnail-thumb div div div { cursor: pointer;}
